@@ -12,7 +12,8 @@ export default {
         "eslint:recommended",
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
-        "plugin:react-hooks/recommended"
+        "plugin:react-hooks/recommended",
+        "plugin:prettier/recommended"
     ],
     "overrides": [
     ],
@@ -24,7 +25,9 @@ export default {
     "plugins": [
         "react",
         "@typescript-eslint",
-        "react-hooks"
+        "react-hooks",
+        "prettier"
+
     ],
     "rules": {
       "react/prop-types": "off",
